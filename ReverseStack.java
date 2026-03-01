@@ -1,4 +1,42 @@
+// 🔹 FUNCTION: Reverse(st)
+// 🧩 Hypothesis Method
+// ✅ Base Condition
 
+// If stack size = 1 → already reversed.
+
+// ✅ Hypothesis
+
+// Assume stack of size n-1 is correctly reversed by recursion.
+
+// ✅ Induction
+
+// Remove the top element.
+
+// Recursively reverse remaining stack (size n-1).
+
+// Insert removed element at bottom.
+
+// Thus stack of size n becomes reversed.
+
+// 🔹 FUNCTION: insert(st, top)
+// 🧩 Hypothesis Method
+// ✅ Base Condition
+
+// If stack is empty → insert element.
+
+// ✅ Hypothesis
+
+// Assume element is correctly inserted at bottom of stack of size n-1.
+
+// ✅ Induction
+
+// Remove top element.
+
+// Recursively insert element in smaller stack.
+
+// Push removed element back.
+
+// Thus element gets inserted at bottom.
 
 
 import java.util.ArrayList;
