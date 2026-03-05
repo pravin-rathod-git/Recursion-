@@ -29,12 +29,6 @@ Output:
 
 
 
-
-
-
-
-
-
 IBH (Hypothesis Method) Explanation
 1️⃣ Hypothesis
 
